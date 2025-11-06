@@ -5,10 +5,9 @@ import com.poke_api.pokemon.domain.response.pokeApiResponse;
 import com.poke_api.pokemon.infrastructure.dto.pokeApiRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.http.MediaType;
+import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
-
-import java.net.http.HttpHeaders;
 
 @Service
 @AllArgsConstructor
